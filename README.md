@@ -30,7 +30,8 @@
 
 ## Home Page
 
-<img src="./frontend/src/assests/mern-food-delivery-app.herokuapp.com_.png" width='800' height='auto'>
+![image](https://github.com/Devakinandan23/Food-Delivery-App/assets/92246269/c51c94f7-3d7d-4c09-89f6-10bda77b295b)
+
 <br>
 
 ## Pizza Builder Page
