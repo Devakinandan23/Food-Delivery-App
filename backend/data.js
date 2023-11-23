@@ -37,6 +37,18 @@ const data ={
           numReviews: 17,
           description: 'Sting Energy Drink is a carbonated energy drink from PepsiCo International and produced by Rockstar Inc.',
         },
+        {
+         
+          name: 'Coke',
+          category: 'Drink',
+          image: 'https://e7.pngegg.com/pngimages/742/816/png-clipart-coke-coke-drink.png',
+          price: 20,
+          countInStock: 10,
+          type:'Non-Veg',
+          rating: 4.8,
+          numReviews: 17,
+          description: 'Sting Energy Drink is a carbonated energy drink from PepsiCo International and produced by Rockstar Inc.',
+        },
         
       ],
 

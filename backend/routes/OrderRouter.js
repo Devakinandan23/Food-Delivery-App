@@ -58,7 +58,7 @@ orderRouter.post('/',isAuth,expressAsyncHandler(async(req,res)=>{
     service: "gmail",
     auth: {
       type:'OAuth2',
-      user:'jaydeepshelake2001@gmail.com' ,
+      user:order.email ,
       clientId:CLIENT_ID,
       clientSecret:CLIENT_SECRET,
       refreshToken:REFRESH_TOKEN,
@@ -68,7 +68,7 @@ orderRouter.post('/',isAuth,expressAsyncHandler(async(req,res)=>{
 
    // send mail with defined transport object
    let info = await  transporter.sendMail({
-    from: 'jaydeepshelake2001@gmail.com', // sender address
+    from: order.email, // sender address
     to: order.email, // list of receivers
     subject: "Order placed Successfuly🎉",
     text: "Hello world?", // Subject line
